@@ -1,6 +1,4 @@
 import AsyncStorage from '@react-native-async-storage/async-storage';
-
-export const API_BASE_URL = 'http://192.168.100.2:3000/api';
 // Clave dedicada para el JWT del backend (no confundir con el token de Firebase)
 export const TOKEN_KEY = 'backend_jwt_token';
 
